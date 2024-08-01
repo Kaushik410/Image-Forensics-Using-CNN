@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Models
+model/
+!model/image_forensics_model.keras
+
+# Data files (exclude the data directory but allow scripts or small sample data)
+data/
+!data/casia/CASIA1/
+!data/casia/CASIA2/
+
+# Python virtual environment
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
+
+# Exclude .git directory
+.gitmodel/image_forensics_model.keras
